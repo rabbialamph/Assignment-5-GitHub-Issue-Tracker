@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.issue-card{
+    cursor: pointer;
+}
