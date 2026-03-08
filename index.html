@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google Geist font -->
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- style css -->
+     <link rel="stylesheet" href="style.css">
+
+    <title>GitHub Issues Tracker Login</title>
+</head>
+<body>
+
+    <section class="min-h-screen max-w-md mx-auto bg-white shadow-2xl p-8 ">
+        <div class="flex flex-col items-center mb-6">
+            <img class="mb-6" src="assets/github-logo.png" alt="">
+            <h2 class="text-2xl font-bold">GitHub Issues Tracker</h2>
+            <p class="text-gray-600">Sign in to manage your issues</p>
+        </div>
+
+        <div class="">
+
+            <label class="label text-black mb-2">Username</label>
+             <br>
+            <input id="username" type="text" class="input  w-full" placeholder="Enter Username" />
+            <p class="text-purple-700 mt-1">Default: admin</p>
+             <br>
+            <label class="label text-black mb-2">Password</label>
+             <br>
+            <input id="password" type="password" class="input w-full" placeholder="Enter Password" />
+            <p class="text-purple-700 mt-1">Default: admin123</p>
+             <br>
+            <button id="loginBtn" class="btn btn-primary w-full">Sign In</button>
+        </div>
+
+        <div class="flex justify-center items-center gap-2 my-6 ">
+            <div class="flex-1 border-t-2 border-gray-700 opacity-30"></div>
+            <span class="px-2 text-gray-500">OR</span>
+            <dic class="flex-1 border-t-2 border-gray-400 opacity-30"></dic>
+        </div>
+
+       <div>
+            <p class="text-center text-gray-600 mb-3">Demo Credentials:</p>
+            <div class="text-center bg-gray-100 p-5 rounded-[4px]">
+                <h2><span class="font-medium">Username:</span> admin</h2>
+                <p> <span class="font-medium">Password:</span> admin123</p>
+            </div>
+       </div>
+        
+    </section>
+
+    <section>
+        
+    </section>
+    
+
+    <script src="login.js"></script>
+</body>
+</html>
